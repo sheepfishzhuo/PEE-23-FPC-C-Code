@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 //下面代码，打印结果是什么？为什么？（突出'\0'的重要性）
 int main()
 {
@@ -8,5 +9,8 @@ int main()
 	printf("%s\n", arr1);
 	printf("%s\n", arr2);
 	printf("%s\n", arr3);
+	printf("%d\n", strlen(arr1));
+	printf("%d\n", strlen(arr2));
+	printf("%d\n", strlen(arr3));
 	return 0;
 }
